@@ -1,7 +1,8 @@
 # coding=utf-8
 from openai import OpenAI
-from action.Calculate import WolframAlphaQuery, simple_calculate
-from action import Programmer
+from src.action.Calculate import WolframAlphaQuery, simple_calculate
+from src.action import Programmer
+print('ok')
 import openai
 import os
 import re
